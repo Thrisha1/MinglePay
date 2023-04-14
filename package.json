@@ -16,7 +16,11 @@
     "react": "18.2.0",
     "react-datepicker": "^4.11.0",
     "react-dom": "18.2.0",
+<<<<<<< HEAD
     "react-google-contacts": "^2.0.0",
+=======
+    "sharp": "^0.32.0",
+>>>>>>> 91d27851333bc8258860d776cceb1e61fcc7adab
     "tailwindcss": "3.3.1"
   }
 }
