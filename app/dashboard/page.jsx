@@ -4,7 +4,7 @@ import Hero from "@/components/HomePage/Hero";
 const page = () => {
   return (
     <div>
-      <Hero />
+      dashboard
     </div>
   )
 }
