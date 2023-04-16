@@ -7,15 +7,15 @@ const Footer = () => {
   return (
     <div class="p-4 sm:p-6 bg-white border-t-2 border-gray-200">
       <div class="mx-auto max-w-screen-xl">
-        <div class="md:flex md:justify-between">
+        <div class="flex lg:justify-between xs:justify-center flex-wrap xs:gap-8">
           <div className="flex items-center self-start">
             <Image src={Logo} alt="Logo" width="70" height="70" />
             <Link href="/" >
               <h1 className="text-blue-500 text-2xl font-sans">MINGLEPAY</h1>
             </Link>
           </div>
-          <div>
-            <h2 class="mb-6 text-lg font-semibold  uppercase text-black">Connect with Us</h2>
+          <div className="flex-col justify-center items-center">
+            <h2 class="mb-6 text-lg font-semibold  uppercase text-black text-center">Connect with Us</h2>
             <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
               <Link href="#" class="text-gray-500  hover:text-black duration-500">
                 <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg>
@@ -78,8 +78,8 @@ const Footer = () => {
           </div> */}
         </div>
         <hr class="my-6  sm:mx-auto border-gray-200 lg:my-8" />
-        <div class="sm:flex sm:items-center sm:justify-center">
-          <span class="text-sm  sm:text-center text-gray-400">© 2023 <Link href="/" class="hover:underline">MINGLEPAY</Link>. All Rights Reserved.
+        <div class="xs:flex xs:items-center xs:justify-center">
+          <span class="text-sm  xs:text-center text-gray-400">© 2023 <Link href="/" class="hover:underline">MINGLEPAY</Link>. All Rights Reserved.
           </span>
         </div>
       </div>
