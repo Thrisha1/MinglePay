@@ -9,8 +9,8 @@ const BalanceCard = () => {
             <div className='flex-col gap-8'>
                 <div class="mx-4 flex md:flex-row xs:flex-col justify-between items-center min-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100  mb-4">
                     <div>
-                        <h5 class="mb-2 text-4xl font-bold tracking-tight text-gray-900 dark:text-white"><span className="text-2xl">Total Amount : </span><span className='text-lg'>₹ </span>0.9</h5>
-                        <p class="font-normal text-gray-700 dark:text-gray-400">Redeemable at ₹ 15</p>
+                        <h5 class="mb-2 text-4xl font-bold tracking-tight text-gray-900"><span className="text-2xl">Total Amount : </span><span className='text-lg'>₹ </span>0.9</h5>
+                        <p class="font-normal text-gray-700 ">Redeemable at ₹ 15</p>
                     </div>
                     <div>
                         <button class="px-16 py-3 sm:mt-0 xs:mt-4 text-sm font-medium leading-5 text-white transition-colors bg-black border  rounded-lg hover:border-black hover:bg-white hover:text-black hover:scale-110 duration-500 focus:outline-none focus:shadow-outline-blue">
