@@ -9,8 +9,8 @@
     "lint": "next lint"
   },
   "engines": {
-    "node": ">=14.0.0",
-    "npm": ">=6.0.0"
+    "node": "16.15.0",
+    "npm": "8.5.5"
   },
   "dependencies": {
     "@heroicons/react": "^1.0.6",
