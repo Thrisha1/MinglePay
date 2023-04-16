@@ -1,10 +1,11 @@
 import React from 'react'
 import Hero from "@/components/HomePage/Hero";
+import Dashboard from '@/components/dashboard/Dashboard';
 
 const page = () => {
   return (
     <div>
-      dashboard
+      <Dashboard/>
     </div>
   )
 }

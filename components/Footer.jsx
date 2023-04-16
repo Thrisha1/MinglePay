@@ -36,9 +36,9 @@ const Footer = () => {
           </div>
           <div class="flex flex-col items-center justify-between mt-6 md:mt-0">
             <h2 class="mb-6 text-lg font-semibold  uppercase text-black">Having an doubts?</h2>
-            <button class="px-16 py-3 text-sm font-medium leading-5 text-white transition-colors duration-150 bg-blue-600 border border-transparent rounded-lg active:bg-blue-600 hover:bg-blue-700 focus:outline-none focus:shadow-outline-blue">
+            <Link href="https://wa.link/96m5it" class="px-12 py-3 flex items-center text-sm font-medium leading-5 text-white transition-colors bg-black border  rounded-lg hover:border-black hover:bg-white hover:text-black duration-500 focus:outline-none focus:shadow-outline-blue">
               Contact Us
-            </button>
+            </Link>
           </div>
 
           {/* <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
