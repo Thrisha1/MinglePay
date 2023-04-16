@@ -21,22 +21,22 @@ const BalanceCard = () => {
                 <div className="flex xl:justify-between mx-4 flex-wrap xs:justify-center">
                     <div className="grid md:grid-cols-3 md:gap-5 xs:justify-center xs:gap-6 w-full">
                         <div class="block w-full  p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 ">
-                            <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white">Number of Ads shared : 2</h5>
-                            <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white">Ads Revenue : <span className='text-lg'>₹ </span>0.9</h5>
+                            <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 ">Number of Ads shared : 2</h5>
+                            <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 ">Ads Revenue : <span className='text-lg'>₹ </span>0.9</h5>
                             <button class="px-5 w-max py-3 flex items-center text-sm font-medium leading-5 text-white transition-colors bg-black border  rounded-lg hover:border-black hover:bg-white hover:text-black duration-500 focus:outline-none focus:shadow-outline-blue">
                                 View Ad Perfomance
                             </button>
                         </div>
                         <div class="flex-col w-full items-center justify-center  p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 ">
-                            <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white">Number of Referals : 0</h5>
-                            <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white">Referal Revenue : <span className='text-lg'>₹ </span>0</h5>
+                            <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 ">Number of Referals : 0</h5>
+                            <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900">Referal Revenue : <span className='text-lg'>₹ </span>0</h5>
                             <button class="px-5 w-max py-3 flex items-center text-sm font-medium leading-5 text-white transition-colors bg-black border  rounded-lg hover:border-black hover:bg-white hover:text-black duration-500 focus:outline-none focus:shadow-outline-blue">
                                 Invite Others
                             </button>
                         </div>
                         <div class="flex-col w-full items-center justify-center  p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 ">
-                            <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white">Radeemed : <span className='text-lg'>₹ </span>0</h5>
-                            <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white">Pending : <span className='text-lg'>₹ </span>0.9</h5>
+                            <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 ">Radeemed : <span className='text-lg'>₹ </span>0</h5>
+                            <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 ">Pending : <span className='text-lg'>₹ </span>0.9</h5>
                         </div>
                     </div>
                     <button class="self-center px-12 py-3 flex items-center text-sm font-medium leading-5 text-white transition-colors bg-black border  rounded-lg hover:border-black hover:bg-white hover:text-black duration-500 focus:outline-none focus:shadow-outline-blue xs:mt-6">
