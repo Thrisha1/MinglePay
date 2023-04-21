@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d32485ea-f5ea-4b31-9000-d3d1abb59641" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/images/bank.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/share.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/singnup.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/HomePage/WhereWeNow.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/HomePage/Hero.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/HomePage/Hero.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +26,9 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/components/HomePage/FeatureCircles.jsx" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -40,7 +50,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "naji-landing",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/najid/WebstormProjects/MinglePay",
     "node.js.detected.package.eslint": "true",
@@ -55,9 +65,20 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\najid\WebstormProjects\MinglePay\assets\images" />
       <recent name="C:\Users\najid\WebstormProjects\MinglePay\components\HomePage" />
       <recent name="C:\Users\najid\WebstormProjects\MinglePay\components" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="FeatureCircles.jsx" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/components/HomePage/FeatureCircles.jsx" working-dir="$PROJECT_DIR$/components/HomePage">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.FeatureCircles.jsx" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
