@@ -17,7 +17,6 @@ const Header = () => {
       <Link href="/profile" className="">
         <UsersIcon className="h-6 w-6 text-white" />
       </Link>
-      
     </div>
   )
 }
