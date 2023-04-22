@@ -7,15 +7,15 @@ import { UsersIcon } from "@heroicons/react/outline";
 
 const Header = () => {
   return (
-    <div className ="flex items-center shadow-lg justify-between px-3">
-      <div className="flex items-center">
+    <div className ="flex items-center  justify-between px-3  bg-[#101010]">
+      <div className="flex items-center ">
         <Image src={Logo} alt="Logo" width="70" height="70" />
         <Link href="/" >
-          <h1 className="text-blue-500 text-2xl font-sans">MINGLEPAY</h1>
+          <h1 className="text-white text-xl font-sans bg-transparent">MINGLEPAY</h1>
         </Link>
       </div>
       <Link href="/profile" className="">
-        <UsersIcon class="h-6 w-6 " />
+        <UsersIcon className="h-6 w-6 text-white" />
       </Link>
       
     </div>
