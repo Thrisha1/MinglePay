@@ -7,10 +7,10 @@ import "react-datepicker/dist/react-datepicker.css";
 import Banner from '../../components/profile/Banner_profile.jsx'
 import bg from '../../assets/bg black.png'
 import UserCard from '../../components/profile/UserCard.jsx'
-import Details from './Details.jsx'
+import Details from '../../components/profile/Details.jsx'
 
 const page = () => {
-  const [startDate, setStartDate] = useState(new Date());
+  // const [startDate, setStartDate] = useState(new Date());
 
   return (
     <div className="p-5 w-100 bg-[#101010]" style={{backgroundImage:`url(${bg})`,
