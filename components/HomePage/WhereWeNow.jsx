@@ -22,7 +22,7 @@ const WhereWeNow = () => {
                   <h2 className="text-white text-2xl font-medium ">Reach</h2>
                 </div>
                 <div className="bg-[#222222] px-10 rounded-3xl p-5 flex gap-2 flex-col items-start">
-                  <h3 className="text-center text-[#E5F358] font-bold text-4xl ">9.5L INR+</h3>
+                  <h3 className="text-center text-[#E5F358] font-bold text-4xl ">9.5L Inr+</h3>
                   <h2 className="text-white text-2xl font-medium ">Earned</h2>
                 </div>
                 <div className="bg-[#222222] px-10 rounded-3xl p-5 flex gap-2 flex-col items-start">
