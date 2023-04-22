@@ -5,6 +5,7 @@ import FeatureCircles from "@/components/HomePage/FeatureCircles";
 import WhereWeNow from "@/components/HomePage/WhereWeNow";
 import HowItWorks from "@/components/HomePage/HowItWorks";
 import ReviewCarousel from "@/components/HomePage/ReviewCarousel";
+import LandingFaq from "@/components/HomePage/LandingFaq";
 
 export default function Home() {
   return (
@@ -14,7 +15,8 @@ export default function Home() {
       <FeatureCircles />
       <WhereWeNow />
       <HowItWorks />
-      {/*<ReviewCarousel />*/}
+      <ReviewCarousel />
+      <LandingFaq/>
     </div>
   )
 }
