@@ -16,10 +16,10 @@ export default function Home() {
       <FeatureCircles />
       <WhereWeNow />
       <HowItWorks />
-      <Footer/>
 
       <ReviewCarousel />
       <LandingFaq/>
+      <Footer/>
     </div>
   )
 }
