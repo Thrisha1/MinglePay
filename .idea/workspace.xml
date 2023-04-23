@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d32485ea-f5ea-4b31-9000-d3d1abb59641" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/bank.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/share.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/singnup.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/HomePage/WhereWeNow.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/man.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/HomePage/LandingFaq.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/HomePage/Hero.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/HomePage/Hero.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/HomePage/FeatureCircles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/HomePage/FeatureCircles.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/HomePage/ReviewCarousel.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/HomePage/ReviewCarousel.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/HomePage/WhereWeNow.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/HomePage/WhereWeNow.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +52,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "naji-landing-new-ui",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/najid/WebstormProjects/MinglePay",
     "node.js.detected.package.eslint": "true",
@@ -60,6 +62,7 @@
     "node.js.selected.package.stylelint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2022.3.4\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -90,6 +93,8 @@
       <updated>1681445610000</updated>
       <workItem from="1681445611872" duration="170000" />
       <workItem from="1681445800648" duration="2886000" />
+      <workItem from="1682171329020" duration="2131000" />
+      <workItem from="1682181030450" duration="6137000" />
     </task>
     <servers />
   </component>
@@ -98,5 +103,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/components/HomePage/ReviewCarousel.jsx</url>
+          <line>10</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
