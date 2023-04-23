@@ -25,7 +25,7 @@ const Details = () => {
                     <PencilIcon className="h-5 w-5 text-black"/>
                 </div>
                 <p className="mx-2">562</p>
-                <div className="bg-black h-[1px] my-2 mx-3"></div>
+                <div className="bg-black h-[0.5px] my-2 mx-3"></div>
             </div>
             <div className="my-4">
                 <div className="flex justify-between pr-2 items-center">
@@ -45,7 +45,7 @@ const Details = () => {
                     <PencilIcon className="h-5 w-5 text-black"/>
                 </div>
                 <p className="mx-2">678102</p>
-                <div className="bg-black h-[1px] my-2 mx-3"></div>
+                <div className="bg-black h-[0.5px] my-2 mx-3"></div>
             </div>
             
            
