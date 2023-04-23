@@ -9,7 +9,7 @@ const Hero = () => {
 
     return (
         <div>
-            <section className="min-h-[600px] flex justify-center">
+            <section className="min-h-[600px] flex justify-center items-center">
                 <div className="flex-col gap-10 justify-center bg-[#101010] mx-2 from-[#86fde8] mt-0 to-[#acb6e5] overflow-hidden flex rounded-b-2xl shadow-lg p-5 align-middle items-stretch h-auto md:flex-row">
                     <div className="md:w-1/2 flex-col">
                         <h1 className="text-white text-4xl font-bold">Hola John!</h1>
@@ -17,7 +17,7 @@ const Hero = () => {
                             Share Ads on Whatsapp and boost your Income!
                         </h2>
                     </div>
-                    <div className="flex py-3 flex-col items-center bg-gradient-to-r from-[#9DDE70] from-0% via-[#D6F19A] via-36.77% to-[#D3E854] to-100% w-11/12 rounded-xl min-h-[200px] ">
+                    <div className="flex py-3 flex-col items-center bg-gradient-to-r from-[#9DDE70] from-0% via-[#D6F19A] via-36.77% to-[#D3E854] to-100% w-full rounded-xl min-h-[200px] ">
                         <div className='bg-black rounded-lg w-11/12 text-white text-xs font-bold text-center px-2 py-1'>
                             Login daily to get more
                         </div>
