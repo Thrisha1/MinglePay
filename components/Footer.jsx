@@ -18,7 +18,7 @@ const Footer = () => {
         <button className="bg-[#E5F358] p-2 rounded-xl flex"><ChatIcon className="h-6 w-6 mx-2"/>Drop Us a Message</button>
       </div>
     <div className="text-white text-center">Terms
-      <div className="text-white text-center">Privacy Policy</div>
+      <div className="text-white ">Privacy Policy</div>
     </div>
     <div className="flex w-full justify-between px-10">
       <Image src={Insta} alt="insta" width={20} height={20}/>
@@ -26,9 +26,9 @@ const Footer = () => {
       <Image src={Youtube} alt="youtube" width={20} height={20}/>
       <Image src={Twitter} alt="twitter" width={20} height={20}/>
     </div>
-    <div className="">
+    {/* <div className="">
       <h1 className="text-gray-500 text-xs py-1">© Copyright 2023 MinglePay - All Rights Reserved</h1>
-    </div>
+    </div> */}
           
         
     </div>

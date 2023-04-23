@@ -1,5 +1,6 @@
 import Header from '../components/Header.jsx'
-import Footer from '../components/Footer.jsx'
+// import Footer from '../components/Footer.jsx'
+import Footer_common from "../components/Footer_common.jsx"
 import './globals.css'
 export const metadata = {
   title: 'Next.js',
@@ -12,7 +13,7 @@ export default function RootLayout({ children }) {
       <body className=" ">
         <Header/>
         {children}
-        <Footer/>
+        <Footer_common />
       </body>
     </html>
   )
