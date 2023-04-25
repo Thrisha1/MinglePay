@@ -6,9 +6,9 @@ import { Carousel } from "flowbite-react";
 
 const ReviewCarousel = () => {
   return (
-    <div className="h-96 mx-4 max-w-screen-lg">
+    <div className="h-96 flex mx-4 gap-5 max-w-screen-lg">
       <Carousel slideInterval={5000}>
-        <div className="flex flex-col gap-2 mx-4 mt-5 h-full pt-4 rounded-3xl justify-center items-center bg-[#101010] text-white">
+        <div className="flex flex-col gap-5 mx-4 mt-5 h-full pt-4 rounded-3xl justify-center items-center bg-[#101010] text-white">
           <h3 className="text-white font-semibold text-2xl mb-4">Customer Reviews</h3>
           <div className="grid grid-cols-4 gap-3 items-center">
             <div className="col-span-1">
