@@ -10,16 +10,16 @@ import LandingFaq from "@/components/HomePage/LandingFaq";
 
 export default function Home() {
   return (
-    <div>
-      {/* Home */}
-      <Hero />
-      <FeatureCircles />
-      <WhereWeNow />
-      <HowItWorks />
+      <div>
+        {/* Home */}
+        <Hero />
+        <FeatureCircles />
+        <WhereWeNow />
+        <HowItWorks />
 
-      <ReviewCarousel />
-      <LandingFaq/>
-      <Footer/>
-    </div>
+        <ReviewCarousel />
+        <LandingFaq/>
+        <Footer/>
+      </div>
   )
 }

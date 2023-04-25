@@ -1,5 +1,6 @@
 import Header from '../components/Header.jsx'
-// import Footer from '../components/Footer.jsx'
+import { Providers } from '../components/Provider';
+
 import Footer_common from "../components/Footer_common.jsx"
 import './globals.css'
 export const metadata = {
@@ -11,9 +12,11 @@ export default function RootLayout({ children }) {
  return (
     <html lang="en">
       <body className=" ">
-        <Header/>
-        {children}
-        <Footer_common />
+        <Providers>
+          <Header/>
+          {children}
+          <Footer_common />
+        </Providers>
       </body>
     </html>
   )
