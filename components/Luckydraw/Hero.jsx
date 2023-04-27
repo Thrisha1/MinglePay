@@ -5,6 +5,8 @@ import Link from "next/link";
 import {Span} from "next/dist/server/lib/trace/tracer";
 import dummyimg from "@/assets/dummyimg.png";
 import {ClipboardIcon} from "@heroicons/react/outline";
+// import { ArrowLongRightIcon } from "@heroicons/24/outline";
+
 
 const LuckyHero = () => {
   return (
@@ -38,6 +40,18 @@ const LuckyHero = () => {
               <div className="flex justify-center items-center mt-4">
 
                 <button className="bg-gray-900 text-[#D3E853] text-sm rounded-xl py-1 px-4">Share Link</button>
+              </div>
+
+
+            </div>
+            <div className="max-w-md p-2  justify-between bg-[#82C969] rounded-xl ">
+
+
+              <div className="flex flex-inlne">
+                <h1 className="w-full    font-semibold text-[#151515] tracking-widest  text-center text-sm p-2 ">Click
+                  Here to Enter the Lucky Draw</h1>
+
+
               </div>
 
 
