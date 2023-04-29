@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import Banner from '../../assets/banner3.gif'
+import Banner from '../../public/banner3.gif'
 import BalanceCard from './BalanceCard'
 import RecentAds from './RecentAds'
 import Hero from './hero'

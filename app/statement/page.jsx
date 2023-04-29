@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { useState } from 'react';
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
-import bg from '../../assets/bg black.png'
+import bg from '../../public/bg black.png'
 import UserCard from '../../components/profile/UserCard.jsx'
 import Earnings from '../../components/statement/Earnings.jsx'
 import Referral from '../../components/statement/Referral.jsx'

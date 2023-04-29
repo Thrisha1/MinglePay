@@ -1,7 +1,7 @@
 "use client"
 
 import React from 'react'
-import WhatsApp from '../assets/images/whatsapp.svg'
+import WhatsApp from '../public/images/whatsapp.svg'
 import Image from 'next/image'
 import { useRouter } from 'next/navigation'; 
 

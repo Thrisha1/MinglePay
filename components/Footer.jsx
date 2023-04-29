@@ -1,12 +1,12 @@
 import React from 'react'
 import Image from 'next/image'
-import Logo from '../assets/logo.jpg'
+import Logo from '../public/logo.jpg'
 import Link from 'next/link'
 import {ChatIcon} from "@heroicons/react/outline";
-import Insta from "../assets/insta.png";
-import Fb from "../assets/Facebook.png";
-import Youtube from "../assets/Youtube.png";
-import Twitter from "../assets/twitter.png";
+import Insta from "../public/insta.png";
+import Fb from "../public/Facebook.png";
+import Youtube from "../public/Youtube.png";
+import Twitter from "../public/twitter.png";
 
 const Footer = () => {
   return (

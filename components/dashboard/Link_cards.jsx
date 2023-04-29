@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import React from 'react'
-import Cup from '../../assets/images/cup.svg'
-import Time_box from '../../assets/images/time_box.svg'
-import Trophy_award from '../../assets/images/trophy-award.svg'
-import Add_people from '../../assets/images/account-multiple-plus.svg'
+import Cup from '../../public/images/cup.svg'
+import Time_box from '../../public/images/time_box.svg'
+import Trophy_award from '../../public/images/trophy-award.svg'
+import Add_people from '../../public/images/account-multiple-plus.svg'
 
 const Link_cards = () => {
     return (

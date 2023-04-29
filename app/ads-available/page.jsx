@@ -1,7 +1,7 @@
 import React from "react";
 import Ads from "../../components/ads-available page/Ads.jsx";
-import ad1 from "../../assets/ad1.png";
-import ad2 from "../../assets/ad2.jpeg";
+import ad1 from "../../public/ad1.png";
+import ad2 from "../../public/ad2.jpeg";
 
 const page = () => {
   return (

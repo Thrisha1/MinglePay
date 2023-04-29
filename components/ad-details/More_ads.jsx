@@ -1,8 +1,8 @@
 import React from 'react'
 import Link from 'next/link'
 import Ad_card from '../Ad_card'
-import Ad2 from '../../assets/images/ad2.svg'
-import Ad3 from '../../assets/images/ad3.svg';
+import Ad2 from '../../public/images/ad2.svg'
+import Ad3 from '../../public/images/ad3.svg';
 
 const More_Ads = () => {
     return (

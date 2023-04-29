@@ -1,7 +1,10 @@
 import React from 'react'
 import AdsCard from './AdsCard'
-import ads from '../../assets/ads.jpeg'
+import ads from '../../public/ads.jpeg'
 import Link from 'next/link'
+import Ad1 from '../../public/images/eid_ads.svg'
+import Ad2 from '../../public/images/ad2.svg'
+import Ad3 from '../../public/images/ad3.svg'
 
 
 const RecentAds = () => {
@@ -39,12 +42,12 @@ const RecentAds = () => {
 
                 {
                     ads.map(ad =>
-                        <AdsCard image={ads} title="Quantity Surveying Course" amt="20" />
+                        <AdsCard id={ad.id} image={ad.image} title={ad.description} amt={ad.amt} />
                     )
                 }
                 
             </div>
-            <Link href="/ads-available" class="block w-full mt-6 text-center text-lg font-bold text-yellow-200">View All Ads</Link>
+            <Link href="/all-ads" class="block w-full mt-6 text-center text-lg font-bold text-yellow-200">View All Ads</Link>
             <h1 className="text-gray-400 text-md mt-4 text-center flex justify-center">
                 Vorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
             </h1>

@@ -1,11 +1,18 @@
+"use client"
+
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import MoreAds from '../../assets/images/moreAds.svg'
-import Eidad from '../../assets/images/eid ads.svg'
+import MoreAds from '../../public/images/moreAds.svg'
+import Eidad from '../../public/images/eid_ads.svg'
 import Ad_card from '../Ad_card'
+import { useEffect } from 'react'
 
-const Hero = () => {
+const Hero = ({ads}) => {
+
+    useEffect(() => {
+        console.log(ads);
+    })
 
     return (
         <div>
@@ -17,8 +24,11 @@ const Hero = () => {
                             Earn upto ₹ <span className="font-bold text-3xl">44</span>
                         </h2>
                     </div>
-
-                    <Ad_card imageSrc={Eidad} desc="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus, quibusdam" Amt="44" link="https://www.google.co.in/" />
+                    {
+                        ads.map(ad => (
+                            <Ad_card imageSrc={ad.Image} desc={ad.desc} Amt={ad.amt} alt="this is img" link="https://www.google.co.in/" />
+                        ))
+                    }
 
                     <div className="md:w-1/2 px-8 md:px-16 flex flex-col justify-center">
                         <Link href="/dashboard" className="group py-2 px-3 lg:w-3/4 md:w-full rounded-xl mt-2 flex justify-center items-center text-sm hover:scale-105 duration-700 text-[#002D74]">

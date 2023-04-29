@@ -1,7 +1,7 @@
 import React from 'react'
-import configureimg from "@/assets/images/congifigureimg.svg"
-import checkavail from "@/assets/images/check-avail.svg"
-import startearning from "@/assets/images/start-earning.svg"
+import configureimg from "@/public/images/congifigureimg.svg"
+import checkavail from "@/public/images/check-avail.svg"
+import startearning from "@/public/images/start-earning.svg"
 import Image from "next/image";
 
 const HowItWorks = () => {

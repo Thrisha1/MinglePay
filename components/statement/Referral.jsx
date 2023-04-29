@@ -1,9 +1,9 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import cardbg from '../../assets/cardbg.png'
+import cardbg from '../../public/cardbg.png'
 import {ClipboardIcon} from "@heroicons/react/outline";
-import dummyimg from '../../assets/dummyimg.png'
+import dummyimg from '../../public/dummyimg.png'
 
 
 const Referral = () => {

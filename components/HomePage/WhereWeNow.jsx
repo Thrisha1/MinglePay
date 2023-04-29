@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from "next/image";
-import wherewebg from "@/assets/images/where-we-bg.png";
+import wherewebg from "@/public/images/where-we-bg.png";
 import Link from "next/link";
 
 
