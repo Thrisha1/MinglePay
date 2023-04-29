@@ -5,7 +5,7 @@ import { useState } from 'react';
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import Banner from '../../components/profile/Banner_profile.jsx'
-import bg from '../../assets/bg black.png'
+import bg from '../../public/bg black.png'
 import UserCard from '../../components/profile/UserCard.jsx'
 import Details from '../../components/profile/Details.jsx'
 

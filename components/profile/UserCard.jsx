@@ -1,5 +1,5 @@
 import React from 'react'
-import cardbg from '../../assets/cardbg.png'
+import cardbg from '../../public/cardbg.png'
 import {CheckCircleIcon} from "@heroicons/react/outline";
 
 

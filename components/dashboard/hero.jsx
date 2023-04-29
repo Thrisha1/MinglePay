@@ -1,9 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
-import PageLoader from '../../assets/payment_img.png'
-import heroimg from '../../assets/images/heroimg.png'
+import PageLoader from '../../public/payment_img.png'
+import heroimg from '../../public/images/heroimg.png'
 import Link from 'next/link'
-import NewAds from '../../assets/images/new_ads.svg'
+import NewAds from '../../public/images/new_ads.svg'
 
 const Hero = () => {
 

@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-import man from "@/assets/images/man.svg"
+import man from "@/public/images/man.svg"
 import Image from "next/image";
 import { Carousel } from "flowbite-react";
 

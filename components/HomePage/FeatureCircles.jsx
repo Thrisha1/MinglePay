@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from "next/image";
-import signup from "../../assets/images/singnup.svg"
-import share from "../../assets/images/share.svg"
-import bank from "../../assets/images/bank.svg"
+import signup from "../../public/images/singnup.svg"
+import share from "../../public/images/share.svg"
+import bank from "../../public/images/bank.svg"
 
 const FeatureCircles = () => {
   return (
