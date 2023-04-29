@@ -44,7 +44,7 @@ const Hero = () => {
                         </h2> */}
                     </div>
 
-                    <Ad_card imageSrc={Eidad} desc="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus, quibusdam" Amt="44" link="https://www.google.co.in/" />
+                    <Ad_card imageSrc={Ad1} desc="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus, quibusdam" Amt="44" link="https://www.google.co.in/" />
                 </div>
             </section>
         </div>

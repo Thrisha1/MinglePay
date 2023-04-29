@@ -4,7 +4,6 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import MoreAds from '../../public/images/moreAds.svg'
-import Eidad from '../../public/images/eid_ads.svg'
 import Ad_card from '../Ad_card'
 import { useEffect } from 'react'
 
