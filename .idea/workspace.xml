@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d32485ea-f5ea-4b31-9000-d3d1abb59641" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/Luckydraw/Terms.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/referral/page.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lucky-draw/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/lucky-draw/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Luckydraw/Hero.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Luckydraw/Hero.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +46,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "naji-landing-new-ui",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/najid/WebstormProjects/MinglePay",
+    "last_opened_file_path": "C:/Users/najid/WebstormProjects/eventsradar-frontend-new",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.stylelint": "true",
     "node.js.detected.package.tslint": "true",
@@ -98,7 +94,10 @@
       <workItem from="1682490685485" duration="465000" />
       <workItem from="1682567341320" duration="2235000" />
       <workItem from="1682572832630" duration="1108000" />
-      <workItem from="1682579505433" duration="3292000" />
+      <workItem from="1682579505433" duration="3537000" />
+      <workItem from="1682613213415" duration="592000" />
+      <workItem from="1682614458366" duration="475000" />
+      <workItem from="1682615033341" duration="63000" />
     </task>
     <servers />
   </component>
